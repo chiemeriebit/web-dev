@@ -1,0 +1,92 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Enriqueta&family=Montserrat:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Enriqueta&family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    background-image: url(../media/photo/pexels-mario-cuadros-2651248.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: aqua; */
+    width: 67%;
+    height: 100vh;
+    display: inline-block;
+    
+}
+
+/* form{
+ 
+} */
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+section div h2{
+    color: white;
+    padding: 10rem 5rem;
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+form {     
+    width: 33%;
+    height: 100vh;
+    display: inline-block;
+    padding: 8rem 6rem;
+    position: relative;
+    margin: 30px 0;
+}
+
+form  input{
+    margin-bottom: 0rem;
+    width: 100%;
+    padding: 0px 0px ;
+    height: 4rem;
+    border: none;
+    border-bottom: 1px solid #adadad;
+    background: none;
+    outline: none;
+
+}
+form h2{
+    padding: 5px 0;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+form p{
+    color: #adadad;
+    font-size: small;
+    padding: 0 0 2rem 0;
+}
+
+form button{
+    width: 100%;
+    background-color: #101727;
+    height: 2.2rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+form .have a{
+    display: inline;
+}
+
+
+form button:hover{
+    background-color: rgba(16, 23, 39, 0.8);
+}
